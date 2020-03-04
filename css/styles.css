@@ -2,7 +2,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500i,700,700i&display=swap');
 
 :root{
-
+    --color-white: #ffffff;
+    --color-black: black;
+    --color-primary: #3f3d55;
 }
 
 *{
@@ -19,4 +21,102 @@ body{
     font-size: 1rem;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    background: var(--color-white);
+}
+
+
+a, a:hover{
+    text-decoration: none
+}
+
+.pt-80{
+    padding: 80px 0;
+}
+
+/*************** SECTION HEADER ********************/
+
+.header{
+    height: 100vh;
+    width: 100%;
+    background: url('../images/slide.jpg');
+    background-size: cover;
+}
+
+
+/*************** SECTION SERVICES ********************/
+
+.services{
+    height: 55rem;
+    z-index: 1000;
+}
+
+.box-services{
+    background: var(--color-white);
+    width: 100%;
+    min-height: 50rem;
+    box-shadow: 0 15px 25px -7px rgba(0,0,0,.09), 0 -12px 10px -10px rgba(0,0,0,.04);
+    margin-top: -24rem;
+}
+
+.services-card{
+    padding: 1.8rem;
+}
+
+.services-card_title{
+    padding: 1.4rem 2rem;
+}
+
+.services-card_title h1{
+    font-size: 3rem;
+    color: var(--color-primary);
+    font-weight: 700;
+}
+
+.services-card_title p{
+    color: var(--color-primary);
+    font-size: 1.6rem;
+    color: #898989;
+    font-weight: 200;
+    margin-bottom: 6rem;
+}
+
+.btn-link{
+    border: 0;
+    padding: 1rem 3.5rem;
+    color: var(--color-white);
+    background-color: #ff414a;
+    font-size: 1.6rem;
+    border-radius: 3.8rem; 
+}
+
+.btn-link:hover{
+    border-radius: 3.8rem; 
+    text-decoration: none;
+    background-color: #ff414a;
+    color: var(--color-white)
+}
+
+.services-card_illustration{
+    width: 12.8rem;
+    height: 12.4rem;
+}
+
+.services-card_illustration > img{ 
+    height: auto;
+    object-fit: cover;
+}
+
+.services-card h2{
+    color: var(--color-primary);
+    font-size: 2.4rem;
+    text-transform: capitalize;
+    font-weight: 600; 
+    margin: 1rem 0 2rem;
+}
+
+.services-card p{
+    color: var(--color-primary);
+    font-size: 1.6rem;
+    color: #898989;
+    font-weight: 200;
 }
