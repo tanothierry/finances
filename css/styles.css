@@ -108,13 +108,14 @@ h1,h2,h3,h4
     z-index: 10;
     top: 20%;
     left: 97%;
+    padding: 1rem 0;
 }
 
 .sideBar img
 {
     height: 3.5rem;
     width: 3.5rem;
-    padding: 2rem .8rem;
+    margin : 1.5rem .8rem;
 }
 
 .sideBar img:hover
@@ -124,7 +125,7 @@ h1,h2,h3,h4
 
 .sideBar .icontop
 {
-    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
 }
 
 
