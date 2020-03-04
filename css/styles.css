@@ -87,6 +87,21 @@ h1,h2,h3,h4
     font-style: italic;
 }
 
+/*------------ SIDE BAR ------------*/
+
+.sideBar
+{
+    width: 5rem;
+    min-height: 40rem;
+    background-color: white;
+    position: fixed;
+    z-index: 9;
+    top: 20%;
+    left: 97%;
+}
+
+
+
 /*------------ SECTION 1 ------------*/
 
 .sectionOne
