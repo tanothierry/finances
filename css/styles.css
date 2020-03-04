@@ -102,13 +102,12 @@ h1,h2,h3,h4
 .sideBar
 {
     width: 5rem;
-    min-height: 40rem;
+    min-height: 35rem;
     background-color: white;
     position: fixed;
     z-index: 10;
     top: 20%;
     left: 97%;
-    padding: 1rem 0;
 }
 
 .sideBar img
@@ -123,7 +122,7 @@ h1,h2,h3,h4
     background-color: #6d64ff;
 }
 
-.sideBar .icontop
+.sideBar div
 {
     border-bottom: 1px solid #ccc;
 }
@@ -360,7 +359,7 @@ h1,h2,h3,h4
 
 .insideS4 .submit
 {
-    width: 5rem;
+    width: 10rem;
     padding: 1.5rem;
     border-radius: 3rem;
     border: none;
