@@ -1,1 +1,420 @@
-aaa
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+:root{
+    --color-red: #ff414a;
+}
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html
+{
+    font-size: 62.5%;
+}
+
+body
+{
+    overflow-x: hidden;
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+a, a:hover
+{
+    text-decoration: none;
+}
+
+/* ---- NavBar ---- */
+.TopNav
+{
+    font-size: 1.5rem;
+    position: fixed;
+    padding: 3rem 0;
+    background: transparent;
+    width: 100%;
+}
+
+.topNav__link li a
+{
+    color: white;
+    font-weight: bold;
+}
+
+/* --- Header --- */
+.Header
+{
+    min-height: 100vh;
+    background-image: url('../img/slide.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.Header__Title 
+{
+    margin-top: 12rem;
+    position: relative;
+}
+
+.Header__Title h1
+{
+    font-size: 5.4rem;
+    color: white;
+    font-weight: 700;
+}
+
+.Header__Title h1 span
+{
+    color: var(--color-red);
+}
+
+.Bloc
+{
+    width: 75%;
+    min-height: 30rem;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10rem 5rem;
+}
+
+.BlocContainer__illustration
+{
+    margin-bottom: 1.8rem;
+}
+
+.Bloc__Container h2
+{
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+
+}
+
+.Bloc__Container p
+{
+    font-size: 1.7rem;
+    margin-bottom: 5rem;
+}
+
+.Bloc__Container__btn
+{
+    padding: 1rem 3rem;
+    background: var(--color-red);
+    color: white;
+    font-size: 1.6rem;
+    border: none;
+    border-radius: 3rem;
+}
+
+/*------------ SECTION 2 ------------*/
+
+.sectionTwo
+{
+    width: 100%;
+    min-height: 50rem;
+    background-color: #f3f3f7;
+    padding: 1.5rem 0;
+}
+.sectionTwo__text
+{
+    margin-top: 40rem;
+}
+.sectionTwo__text h2
+{
+    color: #3f3d56;
+    font-size: 3.4rem;
+    font-weight: bold;
+}
+
+.sectionTwo__text p
+{
+    color: #3f3d56;
+    font-size: 1.6rem;
+    font-style: italic;
+}
+
+.textCard
+{
+    margin: 5rem 0;
+}
+
+.cardInside
+{
+    padding: 2rem 2rem;
+    position: relative;
+    min-height: 40rem;
+}
+
+.cardInside h2
+{
+    font-size: 2.4rem;
+    color: #3f3d56;
+}
+
+.cardInside p
+{
+    font-size: 1.6rem;
+    color: #3f3d56;
+}
+
+.cardInside a
+{
+    font-size: 6.6rem;
+    color: var(--color-red);
+}
+
+.cardInside img
+{
+    margin-top: 3rem;
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    transform: translate(-50% , -50%);
+}
+
+/*------------ SECTION 3 ------------*/
+
+.sectionThree
+{
+    width: 100%;
+    min-height: 50rem;
+    background-color: var(--color-white);
+    padding: 4rem 0;
+}
+
+.sectionThree h2
+{
+    font-size: 3rem;
+    color: #3f3d56;
+    font-weight: bold;
+}
+
+.sectionThree h1
+{
+    font-size: 3rem;
+    color: #7f7bae;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.leftThree
+{
+    padding-top: 4rem;
+}
+
+.iconThree
+{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    background-color: black;
+    margin-right: 3rem;
+}
+
+.sectionIcon
+{
+    margin-top: 6rem;
+}
+
+.sectionThree h3
+{
+    font-size: 2.5rem;
+    color: #3f3d56;
+    font-weight: bold;
+}
+
+.sectionThree  p
+{
+    font-size: 1.4rem;
+    color: #898989;
+}
+
+.bordertop
+{
+    border-top: 1px solid #ccc;
+    padding-top: .5rem;
+}
+
+/*------------ SECTION 4 ------------*/
+
+.sectionFour
+{
+    width: 100%;
+    background-image: url(../img/susbscribe-bg.jpg);
+    min-height: 40rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.insideS4
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.insideS4 h1
+{
+    font-size: 3.6rem;
+    color: white;
+    font-weight: bold;
+}
+
+.insideS4 h1 span
+{
+    font-size: 3.6rem;
+    color: #ff414a;
+    font-style: italic;
+}
+
+.insideS4 p
+{
+    font-size: 1.6rem;
+    color: white;
+}
+
+.insideS4 .text
+{
+    width: 41rem;
+    padding: 1.5rem;
+    background-color: #626075;
+    border-radius: 3rem;
+    border: 0.5px solid #626075;
+}
+
+.insideS4 .submit
+{
+    width: 9rem;
+    padding: 1.5rem;
+    border-radius: 3rem;
+    border: none;
+    margin-left: -7rem;
+    background-color: white;
+}
+
+/*------------ SECTION 5 ------------*/
+
+.sectionfive
+{
+    width: 100%;
+}
+
+.insideS5
+{
+    margin: 10rem 0;
+}
+
+.insideS5 h1
+{
+    font-size: 10rem;
+}
+
+.insideS5 p
+{
+    font-size: 1.6rem;
+    color: #898989;
+    margin-bottom: 3rem;
+}
+
+.insideS5 span
+{
+    font-size: 1.3rem;
+    color: #898989;
+    font-style: italic;
+}
+
+.imgS5
+{
+    padding-bottom: 5rem;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.basS5
+{
+    position: relative;
+    padding: 5rem 0;
+}
+
+.basS5 h1
+{
+    font-size: 4rem;
+    color: #3f3d56;
+    font-weight: bold;
+}
+
+.basS5 span
+{
+    color: var(--color-red);
+    font-style: italic
+}
+
+.btnBas
+{
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-50% , -50%);
+    padding: 1rem 2.5rem;
+    font-size: 1.6rem;
+    color: white;
+    background-color: var(--color-red);
+    border-radius: 2rem;
+    border: none;
+    width: 9rem;
+}
+
+/*------------ FOOTER ------------*/
+
+.footer
+{
+    width: 100%;
+    min-height: 30rem;
+    background-color: #3f3d56;
+    padding: 2rem 0;
+}
+
+.footer img
+{
+    margin-bottom: 4rem;
+}
+
+.footer h2
+{
+    color: white;
+    margin-bottom: 4rem;
+}
+
+.footer p
+{
+    font-size: 1.4rem;
+    color: #bebbbc;
+}
+
+.footer a
+{
+    color: #bebbbc;
+    font-size: 1.6rem;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+.footer a:hover
+{
+    color: var(--color-primary);
+}
+
+.copyright
+{
+    margin: 5rem auto 1rem;
+}
