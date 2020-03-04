@@ -1,10 +1,13 @@
 /************* FONT ****************/
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Philosopher:400,400i,700,700i&display=swap&subset=cyrillic,cyrillic-ext,vietnamese');
+
 
 :root{
     --color-white: #ffffff;
     --color-black: black;
     --color-primary: #3f3d55;
+    --color-secondary: #7f7cae;
 }
 
 *{
@@ -53,7 +56,7 @@ p{
 /*****************************************************/
 
 .services{
-    height: 55rem;
+    min-height: 55rem;
     z-index: 1000;
 }
 
@@ -131,6 +134,10 @@ p{
 /************* SECTION PRESENTATION ******************/
 /*****************************************************/
 
+.presentation{
+    padding: 8rem 0;
+}
+
 .presentation-heading{
     text-align: center;
     margin: 7rem 0 5rem;
@@ -196,3 +203,150 @@ p{
 }
 
 
+/************* SECTION PRODUITS **********************/
+/*****************************************************/
+
+
+.produits{
+    background-color: var(--color-white); 
+    padding: 8rem 0;  
+}
+
+.produits-heading{
+    margin-bottom: 7rem;
+}
+
+.produits-heading span{
+    font-size: 3rem;
+    color: var(--color-primary);
+    font-weight: bold;
+}
+
+.produits-heading h1{
+    font-size: 4rem;
+    color: var(--color-primary);
+    font-weight: bold;
+    font-family: 'Philosopher', sans-serif;
+    color: var(--color-secondary);
+    font-style: italic;
+    margin-top: -.4rem;
+}
+
+.produits-description{
+    display: flex;
+    transition: all .4s;
+    margin-bottom: 3rem
+}
+
+.produits-description:hover{
+    margin-left: 4rem;
+}
+
+.produits-description_icon{
+    width: 4rem;
+    height: 4rem;
+    background-color: #3f3d55;
+    margin-right: 3rem;
+}
+
+.produits-description_info{
+    width: 27rem;
+}
+
+.produits-description_info h3{
+    color: var(--color-primary);
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.produits-description_info p{
+    font-size: 1.5rem;
+    margin-bottom: 3.2rem;
+}
+
+.produits-illustration{
+    height: 60rem;
+    width: 100%;
+}
+
+.produits-illustration{
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+}
+
+/*************** SECTION CONTACT ********************/
+/*****************************************************/
+
+.contact{
+    height: 40rem;
+    background: url('../images/susbscribe-bg.jpg');
+    width: 100%;
+    background-size: cover;
+    padding: 9rem 5rem
+}
+.contact-title{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.contact-title h1{
+    font-size: 3.6rem;
+    font-weight: bold;
+    color: var(--color-white);
+    margin-bottom: 1.6rem
+}
+
+.title-color{
+    font-family: 'Philosopher', sans-serif;
+    color: #ff414a; 
+    font-style: italic
+}
+
+.contact-title p{
+    color: white;
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+
+.contact-form{
+    display: flex;
+    width: 50%;
+    margin: 5rem auto 0;
+}
+
+.contact-form input{
+    width: 1000%;
+    height: 4.5rem;
+    border: 0;
+    border-radius: 3.2rem;
+    background-color: #626075;
+    color: var(--color-white);
+    padding-left: 3.5rem;
+    font-size: 1.4rem;
+    font-style: italic;
+    line-height: 4.5rem;
+    transition: all .2s;
+}
+
+.contact-form input:focus,
+.btn-submit:focus{
+    outline: none;
+}
+
+.contact-form input:hover{
+    background-color: #58556e;
+}
+
+
+.btn-submit{
+    height: 4.5rem;
+    padding: 0 3rem;
+    margin-left: -3rem;
+    border-radius: 3.2rem;
+    color: var(--color-primary);
+    font-weight: 600;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
