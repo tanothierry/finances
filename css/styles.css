@@ -2,6 +2,7 @@
 
 :root{
     --color-red: #ff414a;
+    --color-B-General: #3f3d56;
 }
 *,
 *::before,
@@ -78,6 +79,31 @@ a, a:hover
     padding: 1.5rem 0;
     border-bottom: 1px solid #ccc;
     text-align: center;
+    position: relative;
+    z-index: 99999;
+}
+
+.icon__Right p
+{
+    background-color: white;
+    position: absolute;
+    box-shadow: -10px 0px 20px 2px rgba(0,0,0,.06);
+    width: 13rem;
+    left: -12rem;
+    top: 0rem;
+    padding: 1.9rem 0;
+    font-size: 1.4rem;
+    border-radius: 0.7rem;
+    color: var(--color-B-General);
+    display: none;
+    z-index: -222222222;
+    transition: all .10s;
+}
+
+.icon__Right:hover p
+{
+    display: block;
+    z-index: -222222222;
 }
 
 .icon__Right img
@@ -183,14 +209,14 @@ a, a:hover
 }
 .sectionTwo__text h2
 {
-    color: #3f3d56;
+    color: var(--color-B-General);
     font-size: 3.4rem;
     font-weight: bold;
 }
 
 .sectionTwo__text p
 {
-    color: #3f3d56;
+    color: var(--color-B-General);
     font-size: 1.6rem;
     font-style: italic;
 }
@@ -210,13 +236,13 @@ a, a:hover
 .cardInside h2
 {
     font-size: 2.4rem;
-    color: #3f3d56;
+    color: var(--color-B-General);
 }
 
 .cardInside p
 {
     font-size: 1.6rem;
-    color: #3f3d56;
+    color: var(--color-B-General);
 }
 
 .cardInside a
