@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 :root
 {
     --color-white: white;
@@ -22,7 +24,8 @@ html
 body
 {
     font-size: 10px;
-    font-family: 'Trebuchet MS';
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 }
 
 h1,h2,h3,h4
@@ -38,7 +41,7 @@ h1,h2,h3,h4
     background-color: transparent;
     position: fixed;
     z-index: 10;
-    padding: 4rem 0;
+    padding: 5rem 0;
 }
 
 .navLinks li a
@@ -46,11 +49,18 @@ h1,h2,h3,h4
     color: var(--color-white);
     font-size: 1.5rem;
     transition: all .5s;
+    font-weight: bold;
 }
 
 .navLinks li a:hover
 {
     color: var(--color-primary);
+}
+
+.navLinks li a img
+{
+    height: 2rem;
+    width: 2rem;
 }
 
 /*------------ HEADER ------------*/
@@ -69,7 +79,7 @@ h1,h2,h3,h4
 .headerTitle
 {
     position: absolute;
-    top: 40%;
+    top: 45%;
     left: 50%;
     transform: translate(-50% , -50%);
 }
@@ -95,9 +105,26 @@ h1,h2,h3,h4
     min-height: 40rem;
     background-color: white;
     position: fixed;
-    z-index: 9;
+    z-index: 10;
     top: 20%;
     left: 97%;
+}
+
+.sideBar img
+{
+    height: 3.5rem;
+    width: 3.5rem;
+    padding: 2rem .8rem;
+}
+
+.sideBar img:hover
+{
+    background-color: #6d64ff;
+}
+
+.sideBar .icontop
+{
+    border-top: 1px solid #ccc;
 }
 
 
@@ -107,7 +134,7 @@ h1,h2,h3,h4
 .sectionOne
 {
     width: 100%;
-    min-height: 50rem;
+    min-height: 40rem;
     background-color: var(--color-grisclair);
     position: relative;
 }
@@ -115,10 +142,10 @@ h1,h2,h3,h4
 .sectionOne__content
 {
     background: var(--color-white);
-    min-height: 30rem;
+    min-height: 40rem;
     padding: 10rem 3rem;
     position: absolute;
-    top: 20%;
+    top: 15%;
     left: 50%;
     transform: translate(-50% , -50%);
 }
@@ -133,7 +160,7 @@ h1,h2,h3,h4
 
 .sectionOne__content p
 {
-    color: #f3f3f7;
+    color: #908E90;
     font-size: 1.6rem;
 }
 
@@ -198,13 +225,14 @@ h1,h2,h3,h4
 .cardInside p
 {
     font-size: 1.6rem;
-    color: #f3f3f7;
+    color: #908E90;
 }
 
 .cardInside a
 {
     font-size: 6.6rem;
     color: var(--color-primary);
+    text-decoration: none;
 }
 
 .cardInside img
@@ -235,7 +263,7 @@ h1,h2,h3,h4
 
 .sectionThree h1
 {
-    font-size: 3rem;
+    font-size: 4rem;
     color: #7f7bae;
     font-weight: bold;
     font-style: italic;
@@ -246,12 +274,10 @@ h1,h2,h3,h4
     padding-top: 4rem;
 }
 
-.iconThree
+.iconThree img
 {
     height: 5rem;
     width: 5rem;
-    border-radius: 50%;
-    background-color: #7f7bae;
     margin-right: 3rem;
 }
 
@@ -269,7 +295,7 @@ h1,h2,h3,h4
 
 .sectionThree  p
 {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     color: #898989;
 }
 
@@ -290,6 +316,7 @@ h1,h2,h3,h4
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+    margin-top: 4rem;
 }
 
 .insideS4
@@ -324,6 +351,7 @@ h1,h2,h3,h4
 {
     width: 41rem;
     padding: 1.5rem;
+    font-size: 1.4rem;
     background-color: #626075;
     border-radius: 2rem;
     border: 0.5px solid #626075;
@@ -335,6 +363,8 @@ h1,h2,h3,h4
     padding: 1.5rem;
     border-radius: 3rem;
     border: none;
+    font-size: 1.4rem;
+    margin-left: -4rem;
 }
 
 /*------------ SECTION 5 ------------*/
@@ -400,7 +430,7 @@ h1,h2,h3,h4
 {
     position: absolute;
     top: 50%;
-    left: 100%;
+    left: 95%;
     transform: translate(-50% , -50%);
     padding: 1rem 2.5rem;
     font-size: 1.6rem;
