@@ -97,7 +97,7 @@ body
     height: 50rem ;
     position: relative;
     margin-top: -25rem;
-    box-shadow: 0px 7px 17px 3px rgba(0,0,0,0.39);
+    box-shadow: 0px 7px 17px 0px rgba(0,0,0,0.19);
     padding: 4rem  2rem;
 }
 
@@ -203,10 +203,12 @@ body
     width: 6rem;
 }
 
-.chevronimg span
+.chevronimg span,
+span
 {
     font-size: 5rem;
     color: red;
+    font-style: italic;
 }
 
 
@@ -215,10 +217,47 @@ body
 
 .section-second
 {
-    height: 60rem;
+   min-height:git  70rem;
    padding-top: 5rem;
    padding-bottom: 5rem;
 }
+
+.cardmenu
+{
+    height: 12rem;
+    width: 40rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.cardmenu-i
+{
+  height: 10rem;
+  width: 10rem;
+}
+ 
+
+
+.cardmenu-h
+{
+   font-size: 2.5rem; 
+   margin-right: 5rem;
+   font-weight: bold;
+   padding-left: 1.5rem; 
+}
+
+.cardmenu-d .p
+{
+   font-size: 1.5rem; 
+   color: grey;
+   font-weight: 100;
+   padding-left: 1.5rem;
+  
+}
+
+
 .section-second-card
 {
     height: 50rem;
@@ -230,7 +269,7 @@ body
     font-size: 3rem;
     color: #444;
 }
-qsfqf
+
 
 .section-second-card p
 {
@@ -250,6 +289,26 @@ qsfqf
     background-size: cover;
 }
 
+.contentelement
+{
+    position: relative;
+    height: 50rem;
+}
+
+
+.mytextblok 
+{
+    width: 60rem;
+    height: 30rem;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+   
+}
+
 .section-three .mytextblok  h1
 {
     font-size: 4rem;
@@ -262,10 +321,181 @@ qsfqf
     color: white;
 }
 
-.mytextblok
+.mytextblok .myform
 {
-    
+   height: 5rem; 
+   width: 50rem;
+   border-radius: 100px;
+   margin-left: 1rem;
+   font-size:2rem;
+   background-color: #626075;
+   border-color: transparent;
+   transition: 0.3s all ease-in-out;
+   color: #fff!important;
 }
 
-.
 
+.btnsend
+{
+    height: 5rem; 
+    width: 10rem; 
+    border-radius: 30px; 
+    margin-left: -6rem;
+    font-size:2rem;
+    border-color: transparent;
+    transition: 0.3s all ease-in-out;
+}
+
+.btnsend:hover
+{
+   background-color: #fe414a;
+   color: #fff;
+
+}
+
+/***********section-four************/
+
+
+.section-four
+{
+    height: 1000px;
+}
+
+.contentfour
+{
+    margin-top: 5rem;
+    height: 10rem;
+}
+
+.section-four-row
+{
+  width: 100%;
+  height:70rem; 
+}
+
+
+.section-four-row h2
+{
+  font-size: 5rem;
+  font-weight: 900;
+  color: #444;
+}
+
+
+.section-four-row p
+{
+  font-size: 2rem;
+  color: #444;
+  margin-bottom: 3rem;
+}
+
+.four-row
+{
+ padding: 3rem;
+}
+
+.four-card
+{
+    height: 40rem;
+    text-align: left;
+    border:none;
+}
+
+.four-card span
+{
+   font-size: 3rem;
+   font-weight: bold;
+}
+
+.four-card p
+{
+   font-size: 1.8rem;
+   font-weight: 60rem;
+   color: grey;
+   line-height: 3rem;
+   margin-bottom: 3rem;
+}
+
+.four-card h3
+{
+   font-size: 2rem;
+   margin-bottom: 3rem;
+}
+
+.image-row
+{
+    height: 20rem;
+    width: 100%;
+   border-bottom: 1px solid grey;
+    display: flex;
+    margin-top:2rem ;
+    align-items: center;
+}
+
+.images1
+{
+  flex: 1;  
+}
+
+.text-row
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20rem;
+}
+
+.illustration-row h2
+{
+    font-size: 4rem;
+}
+
+.mbutton
+{
+    font-size: 2rem;
+    border-radius: 10rem;
+}
+
+/*******footer*******/
+.footer
+{
+    
+    width: 100%;
+    background-color: #3f3d55;
+    height: 30rem;
+    padding: 5rem;
+}
+.part-one p
+{
+    font-size: 1.4rem;
+    color:#fff;
+    line-height: 2rem;
+    margin-top: 1rem;
+}
+
+.part-one h2
+{
+    font-size: 2rem;
+    color:#fff;
+  
+}
+
+.footer ul li
+{
+ list-style: none;
+ margin-top: 1rem;
+ font-size: 1.4rem;
+ 
+}
+
+.footer ul li a
+{
+text-decoration: none;
+color: #fff;
+transition: all .3s ease;
+}
+
+.footer ul li a:hover
+{
+color: #fe414a;
+}
