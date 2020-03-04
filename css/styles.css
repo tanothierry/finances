@@ -30,6 +30,12 @@ a, a:hover
     cursor: pointer;
 }
 
+.col-md-4,
+.col-lg-4
+{
+    padding: 0;
+}
+
 /* ---- NavBar ---- */
 .TopNav
 {
@@ -38,6 +44,7 @@ a, a:hover
     padding: 3rem 0;
     background: transparent;
     width: 100%;
+    z-index: 999999999999;
 }
 
 
@@ -61,7 +68,7 @@ a, a:hover
 .Bloc__Icon
 {
     position: fixed;
-    top: 21.6rem;
+    top: 15.6rem;
     right: 0;
     width: 6rem;
     min-height: 10rem;
@@ -69,7 +76,7 @@ a, a:hover
     border-radius: 5px;
     box-shadow: -10px 0px 20px 2px rgba(0,0,0,.06);
     z-index: 11111;
-    margin-right: 5rem;
+    margin-right: 2rem;
 }
 
 .icon__Right
@@ -131,7 +138,7 @@ a, a:hover
 
 .Header__Title 
 {
-    margin-top: 35rem;
+    margin-top: 25rem;
     position: relative;
 }
 
@@ -149,7 +156,7 @@ a, a:hover
 
 .Bloc
 {
-    width: 55%;
+    width: 75%;
     min-height: 30rem;
     background-color: white;
     position: absolute;
@@ -205,7 +212,7 @@ a, a:hover
 }
 .sectionTwo__text
 {
-    margin-top: 40rem;
+    margin-top: 50rem;
 }
 .sectionTwo__text h2
 {
@@ -231,12 +238,28 @@ a, a:hover
     padding: 2rem 2rem;
     position: relative;
     min-height: 40rem;
+    border: none;
+    width: 80%;
+}
+.cardInside a
+{
+    font-size: 3rem;
+    color: var(--color-red);
+    margin-top: 3rem;
+    transition: all .2s;
+}
+
+.cardInside a:hover
+{
+    margin-left: 1rem;
+    transition: all .2s;
 }
 
 .cardInside h2
 {
     font-size: 2.4rem;
     color: var(--color-B-General);
+    margin-top: 2rem;
 }
 
 .cardInside p
@@ -245,19 +268,14 @@ a, a:hover
     color: var(--color-B-General);
 }
 
-.cardInside a
-{
-    font-size: 6.6rem;
-    color: var(--color-red);
-}
+
 
 .cardInside img
 {
     margin-top: 3rem;
     position: absolute;
-    top: 70%;
-    left: 70%;
-    transform: translate(-50% , -50%);
+    bottom: 1rem;
+    right: 0;
 }
 
 /*------------ SECTION 3 ------------*/
@@ -300,7 +318,14 @@ a, a:hover
 
 .sectionIcon
 {
-    margin-top: 6rem;
+    padding: 2rem 0;
+    transition: all .2s;
+}
+
+.sectionIcon:hover
+{
+    margin-left: 1rem;
+    transition: all .2s;
 }
 
 .sectionThree h3
@@ -361,6 +386,7 @@ a, a:hover
 {
     font-size: 1.6rem;
     color: white;
+    margin-bottom: 5rem;
 }
 
 .text
