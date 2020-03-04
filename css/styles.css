@@ -1,1 +1,242 @@
-aaa
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html
+{
+    font-size: 62.5%;
+}
+
+body
+{
+    font-size: 10px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* mynavbar */
+
+.mynavbar
+{
+    height: 8rem;
+    background-color: transparent;
+    font-size: 1.5rem;
+    padding: 3.5rem;
+}
+
+.navbar__ul li
+{
+    margin-right: 2rem;
+    font-weight: bold;
+}
+
+.navbar__ul li a
+{
+    color: white;
+    transition: all .3s ease;
+}
+
+.navbar__ul li a:hover
+{
+    color: red;
+}
+
+/* header */
+
+.header
+{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../image/IMG-20200303-WA0000.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+.header-content
+{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-40%,-50%);
+}
+
+
+.header-content h1
+{
+   font-size: 5.5rem;
+   color: white;
+}
+
+.header-content span
+{
+   font-style: italic;
+   color:#fe414a;
+}
+
+/* section-fisrt */
+
+.section-fisrt
+{
+    min-height: 100vh;
+    background-color: #f2f2f6;
+    padding-bottom: 6rem;
+    
+}
+
+.step-one
+{
+    background-color: #fff;
+    height: 50rem ;
+    position: relative;
+    margin-top: -25rem;
+    box-shadow: 0px 7px 17px 3px rgba(0,0,0,0.39);
+    padding: 4rem  2rem;
+}
+
+.mycard,
+.mycard-two
+{
+    height: 40rem;
+    padding: 3rem 1rem;
+    border: none;
+    text-align: justify;
+}
+
+.mycard h2,
+.mycard-two h5,
+.mycard-description h5
+{
+    font-size: 3rem;
+    color: #444;
+}
+
+.mycard p,
+.mycard-two p,
+.mycard-description p
+{
+    font-size: 1.6rem;
+    color: grey;
+    line-height: 3rem;
+    margin-top: 2rem;
+}
+
+.image
+{
+    height: 15rem;
+    width: 15rem;
+}
+
+
+.mycard .btnlink
+{
+   height:5rem ;
+   width: 20rem; 
+   font-size: 2rem;
+   border-radius: 30px; 
+   border: none;
+   background-color:#fe414a;
+   color: #fff;
+}
+
+.mycard  .card-body a 
+{
+  text-decoration: none;
+  color: #fff;
+}
+
+.step-two
+{
+    margin-top: 7rem;
+   
+}
+
+.step-two h2
+{
+   font-size: 5rem;
+   margin-bottom: 1rem;
+}
+
+.step-two p
+{
+   font-size: 2rem;
+   margin-bottom: 1rem;
+   color: grey;
+}
+
+.textcenter
+{
+  margin-bottom: 2rem;
+} 
+  .mycard-description
+{
+  position:relative ;
+    height: 40rem;
+    padding: 3rem 1rem;
+    border: none;
+    text-align: justify;
+}
+.mycard-description img
+{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+}
+
+/* .mycard-description .img1
+{
+    height: 6rem;
+    width: 6rem;
+    position: absolute;
+    background-color: black;
+} */
+.chevronimg
+{
+    height: 6rem;
+    width: 6rem;
+}
+
+.chevronimg span
+{
+    font-size: 5rem;
+    color: red;
+}
+
+
+/* section-second-card */
+
+
+.section-second
+{
+    height: 50rem;
+   padding-top: 5rem;
+   padding-bottom: 5rem;
+}
+.section-second-card
+{
+    height: 60rem;
+    border: none;
+}
+
+.section-second-card h2
+{
+    font-size: 3rem;
+    color: #444;
+}
+
+
+.section-second-card p
+{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #7f7bae;
+
+}
+
