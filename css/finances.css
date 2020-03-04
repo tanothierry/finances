@@ -1,0 +1,396 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+/* general*/
+html
+{
+    font-size: 62.5%;
+}
+
+body
+{
+    font-size: 10px;
+    box-sizing: border-box;
+    background-color: #f3f3f7;
+}
+
+a 
+{
+    text-decoration: none;
+}
+
+a:hover
+{
+    text-decoration: none; 
+}
+
+/*navbar*/
+
+.navbar h1
+{
+    font-size: 3rem;
+    color: #6c63ff;
+}
+
+.nav-bar
+{
+    background: transparent;
+    position: fixed;
+    width: 100%;
+}
+
+.nav-bar ul
+{
+    margin-left: 0 auto;
+}
+
+#navbarContent ul li a
+{
+    font-size: 2rem;
+    transition: all .3s;
+    color: white;
+}
+
+#navbarContent ul li a:hover
+{
+    color: rgb(241, 19, 56);
+}
+/*header*/
+
+.header
+{
+      background-image: url('../images/slide.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header h1
+{
+    color: white;
+    padding: 20rem;
+    font-size: 6rem;
+    font-weight: bold;
+}
+
+.red
+{
+    color: red;
+}
+
+/*section1*/
+
+.big-card-white
+{
+    min-height: 20rem;
+    padding:10rem 5rem ;
+    margin-top: -30rem;
+    background-color: white;
+    box-shadow: 0px 2px 8px -1px rgba(0,0,0,0.75);
+}
+
+.section1-card h2
+{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+
+.section1-card p
+{
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.section1-card1 p
+{
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.section1-card1 h2
+{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+
+.section1-btn
+{
+    background-color: #ff414a;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    width: 20rem;
+    border: none;
+}
+
+.section1-img img 
+{
+    margin-bottom: 2.5rem;
+}
+
+/*section2*/
+
+.section2-card
+{
+   height: 51rem;
+   width: 100%;
+   background-color: white;
+   box-shadow: 0px 2px 8px -1px rgba(0,0,0,0.55);
+}
+
+.big-card-section2 h2
+{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 25rem;
+}
+
+.big-card-section2 h3
+{
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 2rem 2rem;
+}
+
+.big-card-section2 p
+{
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    margin-bottom: 7rem;
+    padding: 1rem 2rem;
+}
+
+.section2-img img
+{
+    float: right;
+
+}
+
+.section2-card h3
+{
+    padding-top: 14rem;
+}
+
+/*section3*/
+
+.firstpart
+{
+    padding-bottom: 2rem;
+}
+
+.firstpart h3
+{
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 1rem 2rem;
+}
+
+.firstpart span
+{
+    font-size: 4rem;
+    line-height: 2.5rem;
+    padding:  2rem;   
+}
+
+.firstpart-1
+{
+    margin-top: 3rem;
+}
+
+.firstpart-1 h4
+{
+    font-size: 1.5rem;
+    padding: 0.5rem 2rem;
+    font-weight: bold;
+}
+
+.firstpart-1 p
+{
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    margin-bottom: 7rem;
+    padding: 2rem;
+    border-bottom: 1px solid #ccc;
+}
+
+/*seconpart*/
+
+.section3-content
+{
+    margin-top: 5rem;
+}
+
+/*section4*/
+
+.sec-4
+{
+    background-image: url('../images/IMG-20200303-WA0053.jpg');
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sec-4-title h1
+{
+    color: white;
+    padding-top: 8rem;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.sec-4-title p
+{
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    margin-bottom: 3rem;
+    color: white;
+}
+
+
+.sec-4-title input
+{
+    font-size: 1.5rem;
+    color: white;
+    background-color: transparent;
+    width: 40rem;
+    height: 5rem;
+    border-radius: 2.5rem;
+    border: 1px solid #ccc;
+
+}
+.sec-4-title button
+{
+    font-size: 1.5rem;
+    color: black;
+    background-color: white;
+    width: 10rem;
+    height: 5rem;
+    border-radius: 2.5rem;
+    border: none;
+
+}
+
+.sec-4-title button:focus,.sec-4-title input:focus
+{
+    outline: none;
+}
+
+/*section5*/
+
+
+.sec-5-title h2
+{
+    color: black;
+    padding-top: 10rem;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+
+.sec-5-title p
+{
+    color: black;
+    font-size: 1.5rem;
+line-height: 2.5rem;
+margin-bottom: 1rem;
+
+}
+
+.sec-5
+{
+    margin-top: 4rem;
+}
+
+
+.icons
+{
+    margin-top: 6rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.foot-1 h1
+{
+    color: black;
+    padding-top: 10rem;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.section5-btn
+{
+    background-color: #ff414a;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    width: 20rem;
+    border: none;
+    margin-top: 13rem;
+    margin-left: 25rem;
+}
+
+.foot-1
+{
+   margin-bottom: 4rem; 
+}
+
+/*footer*/
+.footer
+{
+    background-color: #3f3d56;
+    height: 60vh;
+    padding-top: 5rem;
+}
+
+.footer h2
+{
+    color: white;
+}
+
+.footer ul li a
+{
+    color: white;
+    font-size: 1.5rem;
+    transition: all .3s;
+}
+
+.footer ul li a:hover
+{
+    color: #ff414a;
+}
+
+.footer ul li 
+{
+    list-style: none;
+}
+
+.footer span
+{
+    color: white;
+    font-size: 1.5rem;
+line-height: 2.5rem;
+margin-bottom: 1rem;
+}
+
+.footer p
+{
+    color: white;
+    font-size: 1.5rem;
+line-height: 2.5rem;
+margin-top: 10rem;
+text-align: center;
+
+}
