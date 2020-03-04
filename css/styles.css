@@ -404,3 +404,46 @@ p{
     font-style: italic;
     margin-bottom: .5em
 }
+
+
+/*************** SECTION TESTAMONIALE ****************/
+/*****************************************************/
+
+
+.parterner-box{
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+.partener-logo{
+    flex: 1;
+    min-height: 5rem;
+    margin: 2rem;
+
+}
+
+
+/*************** SECTION SUBSCRIRE ****************/
+/*****************************************************/
+
+.subscrire{
+    padding: 7rem 0;
+}
+
+.subscrire-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subscrire-box h1{
+    width: 48%;
+    font-size: 4.3rem;
+    font-weight: bold;
+}
+
+.footer{
+    height: 30rem;
+    padding: 70px;
+    background-color: var(--color-primary);
+}
